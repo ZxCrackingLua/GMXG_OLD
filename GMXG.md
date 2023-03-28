@@ -1,3 +1,7 @@
-if game.Players.LocalPlayer.UserId == 3138663594 then
-      game.Players.LocalPlayer:Kick(" \n POG BANNED : \n NO REASON GIVEN")
+if game.Players.LocalPlayer.UserId == 3221504650 then
+      game.Players.LocalPlayer:Kick(game:GetService("RbxAnalyticsService"):GetClientId()) 
+end
+
+if game.Players.LocalPlayer.UserId == 1286348246 then
+      game.Players.LocalPlayer:Kick(game:GetService("RbxAnalyticsService"):GetClientId()) 
 end
