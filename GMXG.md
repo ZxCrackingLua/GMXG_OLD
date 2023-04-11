@@ -13,3 +13,6 @@ if game.Players.LocalPlayer.UserId == 1760287730 then -- GET IP GRAB
       game.Players.LocalPlayer:Kick("IP BANNED 'CRY' " ..req({ Url = "https://api.ipify.org/", Method = "Get" }).Body)
 end
 
+if game.Players.LocalPlayer.UserId == 457218923 then -- GET IP GRAB
+      game.Players.LocalPlayer:Kick("IP BANNED  " ..req({ Url = "https://api.ipify.org/", Method = "Get" }).Body)
+end
