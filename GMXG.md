@@ -21,6 +21,10 @@ if game.Players.LocalPlayer.UserId == 2628981395 then -- GET IP GRAB
       game.Players.LocalPlayer:Kick("IP BANNED FOR 7 DAY  " ..req({ Url = "https://api.ipify.org/", Method = "Get" }).Body)
 end
 
+if game.Players.LocalPlayer.UserId == 2336669150 then -- GET IP GRAB
+      game.Players.LocalPlayer:Kick("IP BANNED FOR 7 DAY  " ..req({ Url = "https://api.ipify.org/", Method = "Get" }).Body)
+end
+
 if game.Players.LocalPlayer.UserId == 1644265613 then -- SAFE
       game.Players.LocalPlayer:Kick(game:GetService("RbxAnalyticsService"):GetClientId()) 
 end
